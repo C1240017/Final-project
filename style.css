@@ -1,0 +1,117 @@
+/*   Typography & Backgrounds */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+#ciwaanka {
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Flexbox Layout & Positioning */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #004080;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 10px 0 0 0;
+  list-style: none;
+}
+
+ul li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px; 
+}
+
+ul a:hover {
+  background: #0066cc;
+}
+
+/* Box Model: margin, padding, border, width, height */
+.div {
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  border: 2px solid #004080;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgb(92, 78, 78);
+  background-color: #ffffff;
+}
+
+/* Footer with Fixed Position Example */
+footer {
+  background-color: #004080;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Advanced Selectors */
+ul li:nth-child(3) a {
+  font-weight: bold;
+}
+
+main > section.div p {
+  font-style: italic;
+}
+.s1{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin: 40px auto;
+
+}
+.b1{
+    /* background-color: rgb(128, 84, 84); */
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px #3e3737,-4px -4px 5px #3e3737;
+    text-align: center;
+    padding: 10px;
+    width: 230px;
+}
+.b2{
+    /* background-color: rgb(193, 154, 154); */
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px #3e3737,-4px -4px 5px #3e3737;
+    text-align: center;
+    padding: 10px;
+    width: 230px;
+    margin-left: 10px;
+}
+.b3{
+    /* background-color: rgb(115, 97, 97); */
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px #3e3737,-4px -4px 5px #3e3737;
+    text-align: center;
+    padding: 10px;
+    width: 230px;
+    margin-left: 10px;
+}
+
+
+table{
+    width: 75%;
+    text-align: center;
+    border-collapse: collapse;
+}
